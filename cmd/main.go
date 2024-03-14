@@ -26,7 +26,7 @@ func main() {
 	flag.Parse()
 
 	driverOptions := driver.DriverOptions{
-		DriverName:                      "minio.csi.k8s.io",
+		DriverName:                      "s3.csi.k8s.io",
 		NodeID:                          *nodeId,
 		EndPoint:                        *endpoint,
 		MountPermissions:                *mountPermissions,

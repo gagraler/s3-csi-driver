@@ -22,7 +22,7 @@ import (
 
 const (
 	// DefaultDriverName is the default name of the driver.
-	DefaultDriverName = "minio.csi.k8s.io"
+	DefaultDriverName = "s3.csi.k8s.io"
 	// ParamServer is the address of the minio server.
 	ParamServer = "server"
 	// ParamShare is the base directory of the NFS server to create volumes under.
